@@ -1,0 +1,412 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+html,body{
+    overflow-x: hidden; 
+    min-width: 100%; 
+}
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+   background:linear-gradient(-130deg,rgb(216, 185, 247),rgb(193, 142, 164),rgb(245, 124, 193));
+}
+nav {
+    display: flex;
+    box-shadow: 0 0 0.4rem rgb(162, 173, 183);
+}
+nav .logo{
+    width: 40%;
+    padding: 10px 30px;
+    
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+nav .logo img{
+    height: 50px;
+    width: 50px;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.logo img:hover{
+    border: 2px solid rgb(3, 109, 215);
+    box-shadow: 0 0 0.7rem rgb(7, 16, 117),inset 0 0.7rem  rgb(7, 244, 133),0 0 1rem rgb(2, 31, 94);
+}
+ .logo h2{
+    font-size: 25px;
+    cursor: pointer;
+    display: inline;
+    background:linear-gradient(46deg,rgb(18, 14, 22),rgb(75, 8, 232),black);
+    background-clip: text;
+    color: transparent;
+}
+nav .nav-item{
+    width: 60%;
+   
+}
+nav .nav-item ul{
+    display: flex;
+    margin-left: 40px;
+    gap: 50px;
+    padding: 23px;
+}
+.nav-item ul li{
+    list-style: none;
+}
+.nav-item ul li a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-item ul li a:hover{
+    /* border: 2px solid rgb(106, 2, 106); */
+    background:linear-gradient(45deg,rgb(92, 3, 244),rgb(14, 10, 10),rgb(43, 2, 245));
+    background-clip: text;
+   color: transparent;
+   font-weight: bold;
+}
+.main-contante{
+   background:linear-gradient(220deg,rgb(203, 163, 246),rgb(232, 158, 224),white);
+   height: 90vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   overflow: hidden;
+}
+.right-contante{
+   height: 100%;
+   width: 65%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   padding: 0px 18%;
+}
+.right-contante h2{
+    padding-bottom: 10px;
+    color: black;
+}
+.right-contante h2 span{
+    color: blue;
+}
+.right-contante h1{
+    background: linear-gradient( 70deg ,rgb(85, 3, 218),rgb(212, 10, 192),green);
+    background-clip: text;
+    color: transparent;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+.right-contante p{
+    line-height:1.3;
+    color: black;
+}
+.butt{
+    margin: 20px 0px;
+
+}
+#butt1{
+    margin-left: 25px;
+}
+.butt a{
+    list-style: none;
+    text-decoration: none;
+    border: 2px solid rgb(140, 126, 126);
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    
+}
+.butt a:hover{
+    padding: 12px;
+    color: blue;
+    box-shadow:inset 0 0 1rem rgb(235, 121, 165);
+}
+.left-contante{
+  border-radius: 40%;
+}
+.left-contante .left2 img{
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center; 
+    border-radius: 50%;
+    box-shadow: 0 0 2rem rgb(248, 77, 177),inset 0 0 2rem rgb(205, 121, 156) ;
+}
+.left2 img:hover{
+    transform: scale(1.1);
+}
+.left2{
+    box-shadow: 0 0 3rem white,inset 0 0 2rem rgb(149, 194, 237);
+    border-radius: 52%;
+    /* background-size: 100%; */
+    
+}
+.about{
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(to right, rgb(232, 123, 196),rgb(234, 135, 189),rgba(188, 86, 181, 0.356));
+    display: flex;
+}
+.image-left{
+    
+    width: 40%;
+}
+.image-right{
+    
+    width: 60%;
+    /* display: flex;
+    flex-direction: column;
+    text-align: center; */
+    padding: 20px;
+}
+.image-right h2 span{
+    background:linear-gradient(46deg,rgb(18, 14, 22),rgb(75, 8, 232),black);
+    background-clip: text;
+    color: transparent;
+}
+.image-right p{
+    padding: 10px 30px;
+    background:linear-gradient(46deg,rgb(18, 14, 22),rgb(181, 9, 95),rgb(83, 65, 65));
+    background-clip: text;
+    color: transparent;
+}
+.text2{
+    /* background-color: beige; */
+    height: 40%;
+    padding-top:5px ;
+}
+.text2 h2{
+    background:linear-gradient(46deg,rgb(18, 14, 22),rgb(75, 8, 232),black);
+    background-clip: text;
+    color: transparent;
+}
+.text2 ul{
+    display: flex;
+    /* justify-content: center; */
+    gap: 30px;
+    padding-left: 20px;
+}
+.text2 ul li {
+    list-style: none;
+    padding-top: 30px;
+}
+.text2 ul li a{
+    text-decoration: none;
+   border: 0.5px solid rgb(241, 18, 178);
+   border-radius: 10px;
+   padding: 10px 50px;
+   background-color: rgb(240, 165, 215);
+   /* box-shadow: 0 0 4px rgb(28, 24, 24); */
+}
+.text2 ul li a:hover{
+   color: white;
+   border: 1px solid blue;
+   
+}
+.text1 ul{
+    display: flex;
+    /* justify-content: center; */
+    gap: 30px;
+    padding-left: 20px;
+}
+.text1 ul li {
+    list-style: none;
+    /* padding-top: 30px; */
+}
+.text1 ul li a{
+   text-decoration: none;
+   border: 0.5px solid rgb(241, 18, 178);
+   border-radius: 10px;
+   padding: 10px 50px;
+   background-color: rgb(240, 165, 215);
+}
+.text1 ul li a:hover{
+   color: white;
+   border: 1px solid blue;
+   
+}
+.image-left img{
+    margin: 6% 25%;
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center; 
+    border-radius: 50%;
+    box-shadow: 0 0 2rem rgb(248, 77, 177),inset 0 0 2rem rgb(205, 121, 156) ;
+}
+.image-left img:hover{
+    transform: scale(1.1);
+}
+.project{
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(-220deg,rgb(203, 163, 246),rgb(232, 158, 224),white);
+    /* display: flex;
+    gap: 60px; */
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.project .card1{
+    background-color: aliceblue;
+    margin: 30px 0px;
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+    border-radius: 10px 10px 0 0 ;
+    background-position: center;
+   padding-bottom: 20px;
+}
+.project h2{
+    padding: 30px 0px 0 30px ;
+    background:linear-gradient(46deg,rgb(18, 14, 22),rgb(75, 8, 232),black);
+    background-clip: text;
+    color: transparent;
+}
+.card .card1 img{
+  border-radius: 10px 10px 0 0 ;
+  width: 300px;
+  height: 200px;
+}
+#cards1:hover{
+      transform: scale(1.03);
+      border-radius: 10px;
+}
+#cards2:hover{
+      transform: scale(1.03);
+      border-radius: 10px;
+}
+#cards3:hover{
+      transform: scale(1.03);
+      border-radius: 10px;
+}
+#cards4:hover{
+      transform: scale(1.03);
+      border-radius: 10px;
+}
+.card1 h2{
+    padding: 10px;
+}
+.card1 p{
+    padding: 0 10px 10px 10px;
+}
+.card1 a{
+    padding: 7px 20px;
+    list-style: none;
+    text-decoration: none;
+    border: 0.4px solid rgb(205, 176, 176);
+    margin-left: 16px;border-radius: 10px;
+
+}
+.card1 a:hover{
+    font-size: 20px;
+    background:linear-gradient(45deg,rgb(111, 238, 7),rgb(213, 5, 5),rgb(43, 2, 245));
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+.Skill{
+    height: 100%;
+    padding: 30px;
+    background:linear-gradient(220deg,rgb(219, 192, 249),rgb(232, 158, 224),white);
+}
+.skil-heding{
+    background:linear-gradient(46deg,rgb(11, 0, 7),rgb(75, 8, 232),rgb(78, 3, 240));
+    background-clip: text;
+    color: transparent;
+}
+.skills{
+    display: flex;
+    gap: 100px;
+    margin: 12px 0px 0px 100px;
+    /* background-color: beige; */
+    height: 100%;
+    width: 100%;
+}
+.skill-1 h2{
+  background:linear-gradient(76deg,rgb(35, 29, 41),rgb(75, 8, 232),rgb(13, 220, 127));
+  background-clip: text;
+  color: transparent;
+}
+.skill-1{
+   /* background-color: aqua; */
+   height: 100%;
+   width: 100%;
+}
+.skill-1 li{
+    list-style: none;
+    padding-top: 60px;
+   
+}
+.skill-1 li a{
+    text-decoration:none;
+    color: black;
+    padding: 20px 70px;
+    box-shadow: 0 0 4px rgb(106, 91, 91), 0 0 5px rgb(236, 220, 220);
+    border-radius: 10px;
+}
+.skill-1 li a:hover{
+    /* padding: 22px 74px; */
+    border: 0.3px solid rgb(120, 106, 106);
+    color: blue;
+}
+.contacts{
+   height: 100%;
+   width: 100%;
+   padding: 20px;
+ background:linear-gradient(-45deg,rgb(219, 192, 249),rgb(232, 158, 224),white);
+}
+.contacts h2{
+    padding: 50px 200px;
+    text-decoration: underline;
+}
+.contacts form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin: 0 30%;
+    
+}
+.contacts form input{
+    padding: 14px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+.contacts form button{
+    padding: 14px;
+    border-radius: 10px;
+    border: none;
+}
+footer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background:linear-gradient(-130deg,rgb(88, 83, 94),rgb(91, 82, 86),rgb(101, 91, 97));
+}
+footer p{
+    color: white;
+    /* padding: 20px; */
+}
+footer i{
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+}
+footer i:hover{
+    transform: scale(1.4);
+}
