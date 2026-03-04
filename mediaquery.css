@@ -1,7 +1,4 @@
 @media (min-width:0px) and (max-width:574px){
-    nav{
-        background-color: orange;
-    }
    nav .logo{
     display: none;
     
@@ -109,9 +106,6 @@
    }
 }
 @media (min-width:575px) and (max-width:767px){
-    nav{
-        background-color: blanchedalmond;
-    }
     nav .logo h2{
         display: hidden;
         font-size: 15px;
@@ -211,9 +205,6 @@
    }
 }
 @media (min-width:768px) and (max-width:991px){
-    nav{
-        background-color: red;
-    }
     nav .logo h2{
         display: hidden;
         font-size: 20px;
@@ -318,10 +309,6 @@
    } 
 }
 @media (min-width:992px) and (max-width:1199px){
-    nav{
-        padding: 10px 0px;
-        background-color: blue;
-    }
     nav .logo h2{
         display: hidden;
         font-size: 25px;
@@ -427,9 +414,7 @@
    }  
 }
 @media (min-width:1200px) and (max-width:1399px){
-    nav{
-        background-color: aqua;
-    }
+   
 nav{
     padding: 20px 0px;
 }
